@@ -1,9 +1,9 @@
-# PNGeXplorer (PNGx) CLI
+# PNGeXplorer (PNGeX) CLI
 
 [![C](https://img.shields.io/badge/Language-C99-blue.svg)](https://en.cppreference.com/w/c)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**PNGx** is a lightweight, low-level C utility and command-line tool designed for parsing, inspecting, manipulating, and performing steganography on PNG (Portable Network Graphics) images. PNGeXplorer runs on **POSIX-compliant operating system** and uses `glibc` and `zlib`. PNGx interacts directly with raw PNG binary streams to directly read and manipulate files.
+**PNGeX** is a lightweight, low-level C utility and command-line tool designed for parsing, inspecting, manipulating, and performing steganography on PNG (Portable Network Graphics) images. PNGeXplorer runs on **POSIX-compliant operating system** and uses `glibc` and `zlib`. PNGeX interacts directly with raw PNG binary streams to directly read and manipulate files.
 
 ## Key Features
 
@@ -17,7 +17,7 @@
   * Merges indexed color palettes dynamically up to 256 colors.
   * Fully unfilters scanline data across all 5 standard PNG filter algorithms (None, Sub, Up, Average, Paeth).
 
-## Building PNGx
+## Building PNGeX
 
 ### Requirements
 * POSIX-compliant operating system
@@ -55,7 +55,7 @@ make clean
 
 ## Command Line Usage
 
-PNGx uses a clean two-pass argument parser. The `-f <input.png>` flag is required for all operations except help. Using `-h` will disregard all other commands inputted. Note that `[options]` are optional arguments that will default to 0 if not specified. Also note that `-e`, `-d`, and `-m` flags only support 8-bit images.
+PNGeX uses a clean two-pass argument parser. The `-f <input.png>` flag is required for all operations except help. Using `-h` will disregard all other commands inputted. Note that `[options]` are optional arguments that will default to 0 if not specified. Also note that `-e`, `-d`, and `-m` flags only support 8-bit images.
 
 ```text
 Usage: bin/png -f png_file [options]
