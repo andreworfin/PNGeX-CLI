@@ -20,7 +20,7 @@
 ## Building PNGx
 
 ### Requirements
-* POSIX-compliant operatoring system
+* POSIX-compliant operating system
 * `gcc` or `clang` (C99 standard or later)
 * `make` build tool
 * `zlib` development library
