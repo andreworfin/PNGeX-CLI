@@ -60,13 +60,13 @@ PNGx uses a clean two-pass argument parser. The `-f <input.png>` flag is require
 ```text
 Usage: bin/png -f png_file [options]
 Options:
-  -f png_file                                                                Input PNG file (required)
-  -h                                                                              Print this help message
-  -s                                                                              Print chunk summary
-  -p                                                                              Print palette summary
-  -i                                                                               Print IHDR fields
-  -e message -o out_file                                              Encode message and write to output file
-  -d                                                                              Decode and print hidden message
+  -f png_file                                                Input PNG file (required)
+  -h                                                         Print this help message
+  -s                                                         Print chunk summary
+  -p                                                         Print palette summary
+  -i                                                         Print IHDR fields
+  -e message -o out_file                                     Encode message and write to output file
+  -d                                                         Decode and print hidden message
   -m file2 -o out_file [-w width] [-g height]                Overlay another (smaller) file with over an input file at specific width/height
 ```
 
